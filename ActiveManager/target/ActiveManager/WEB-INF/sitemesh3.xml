@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	<mapping path="/*" decorator="/WEB-INF/decorators/default.jsp" />
+	<mapping path="/user" decorator="/WEB-INF/decorators/userDefault.jsp" />
+	
+	<mapping path="/login/*" exclue="true"/>
+</sitemesh>
