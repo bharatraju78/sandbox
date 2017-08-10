@@ -1,7 +1,4 @@
-
- 	<div class="generic-container">
-		<%@include file="authheader.jsp" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 		<div class="well lead">User Registration Form</div>
 	 	<form:form method="POST" modelAttribute="user" class="form-horizontal">
 			<form:input type="hidden" path="id" id="id"/>
@@ -98,4 +95,3 @@
 				</div>
 			</div>
 		</form:form>
-	</div>
